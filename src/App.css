@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-top: 36px;
 }
 
 .App-link {
@@ -35,4 +35,99 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Nest-logo-container {
+  padding: 10px;
+  border-radius: 50%;
+  backdrop-filter: blur(6px);
+  background-color: rgba(255,255,255, 0.1);
+  border: solid 1px rgba(255,255,255, 0.1);
+}
+
+.Nest-logo-container svg {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  outline: 0;
+  border: none;
+  outline-style: none;
+}
+
+a:active, a:focus {
+  outline: 0;
+  border: none;
+  outline-style: none;
+}
+
+iframe {
+  pointer-events: none;
+  user-select: none;
+  margin: 0;
+  display: block;
+  outline: 0;
+  border: none;
+  border-radius: 2px;
+  /* transform: scale(1.5); */
+}
+
+.flex-container a {
+  position: relative;
+  padding: none;
+  height: 100%;
+  display: inline-block;
+}
+a .empty {
+  position: absolute;
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  /* transform: scale(1.5); */
+}
+
+
+.flex-container {
+  display: flex;
+  row-gap: 48px;
+  column-gap: 96px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.Card-container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 6%;
+}
+
+.Card-container a {
+  height: max-content;
+}
+
+.Card {
+  padding: 80px;
+  border-radius: 6%;
+  backdrop-filter: blur(6px);
+  background-color: rgba(255,255,255, 0.1);
+  border: solid 1px rgba(255,255,255, 0.1);
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: flex;
+  align-items: center;
 }
