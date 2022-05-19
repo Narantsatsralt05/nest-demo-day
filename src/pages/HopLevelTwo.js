@@ -1,5 +1,7 @@
 import React from "react";
 import { NestLogo, HopLogo } from "../assets";
+import LazyLoad from "react-lazyload";
+import urls from "../hop2.json";
 
 export const HopLevelTwo = () => (
   <div className="App">
@@ -14,51 +16,18 @@ export const HopLevelTwo = () => (
           <h1> Level 2</h1>
         </div>
         <div className="flex-container">
-          <a
-            rel="noreferrer"
-            target={"_blank"}
-            href="https://blog.logrocket.com/best-practices-react-iframes/#:~:text=In%20React%2C%20developers%20use%20iframes,website%20it%20is%20embedded%20in."
-          >
-            <iframe
-              src="https://blog.logrocket.com/best-practices-react-iframes/#:~:text=In%20React%2C%20developers%20use%20iframes,website%20it%20is%20embedded%20in."
-              title="HOP1"
-            />
-            <div></div>
-          </a>
-
-          <a
-            rel="noreferrer"
-            target={"_blank"}
-            href="https://blog.logrocket.com/best-practices-react-iframes/#:~:text=In%20React%2C%20developers%20use%20iframes,website%20it%20is%20embedded%20in."
-          >
-            <iframe
-              src="https://blog.logrocket.com/best-practices-react-iframes/#:~:text=In%20React%2C%20developers%20use%20iframes,website%20it%20is%20embedded%20in."
-              title="HOP1"
-            />
-            <div></div>
-          </a>
-          <a
-            rel="noreferrer"
-            target={"_blank"}
-            href="https://blog.logrocket.com/best-practices-react-iframes/#:~:text=In%20React%2C%20developers%20use%20iframes,website%20it%20is%20embedded%20in."
-          >
-            <iframe
-              src="https://blog.logrocket.com/best-practices-react-iframes/#:~:text=In%20React%2C%20developers%20use%20iframes,website%20it%20is%20embedded%20in."
-              title="HOP1"
-            />
-            <div></div>
-          </a>
-          <a
-            rel="noreferrer"
-            target={"_blank"}
-            href="https://blog.logrocket.com/best-practices-react-iframes/#:~:text=In%20React%2C%20developers%20use%20iframes,website%20it%20is%20embedded%20in."
-          >
-            <iframe
-              src="https://blog.logrocket.com/best-practices-react-iframes/#:~:text=In%20React%2C%20developers%20use%20iframes,website%20it%20is%20embedded%20in."
-              title="HOP1"
-            />
-            <div></div>
-          </a>
+          {urls.map(({ url, imageUrl }, index) => (
+            <a key={index} rel="noreferrer" target={"_blank"} href={url}>
+              <LazyLoad key={index}>
+                <img
+                  key={index}
+                  className="Thumbnail"
+                  src={imageUrl}
+                  alt="ZorigFoundation"
+                />
+              </LazyLoad>
+            </a>
+          ))}
         </div>
       </div>
     </header>

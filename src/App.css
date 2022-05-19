@@ -131,3 +131,8 @@ a .empty {
   display: flex;
   align-items: center;
 }
+
+.Thumbnail {
+  max-width: 300px;
+  height: 150px;
+}
