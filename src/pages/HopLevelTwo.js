@@ -17,16 +17,16 @@ export const HopLevelTwo = () => (
         </div>
         <div className="flex-container">
           {urls.map(({ url, imageUrl }, index) => (
-            <a key={index} rel="noreferrer" target={"_blank"} href={url}>
-              <LazyLoad key={index}>
+            <div className="Thumbnail-container">
+              <a key={index} rel="noreferrer" target={"_blank"} href={url}>
                 <img
                   key={index}
                   className="Thumbnail"
                   src={imageUrl}
                   alt="ZorigFoundation"
                 />
-              </LazyLoad>
-            </a>
+              </a>
+            </div>
           ))}
         </div>
       </div>
