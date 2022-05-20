@@ -1,6 +1,5 @@
 import React from "react";
 import { NestLogo, HopLogo } from "../assets";
-import LazyLoad from "react-lazyload";
 import urls from "../hop1.json";
 
 export const HopLevelOne = () => (
@@ -16,14 +15,14 @@ export const HopLevelOne = () => (
           <h1> Level 1</h1>
         </div>
         <div className="flex-container">
-          {urls.map(({ url, imageUrl }, index) => (
+          {urls.map(({ url, imageUrl, alt }, index) => (
             <div className="Thumbnail-container">
               <a key={index} rel="noreferrer" target={"_blank"} href={url}>
                 <img
                   key={index}
                   className="Thumbnail"
                   src={imageUrl}
-                  alt="ZorigFoundation"
+                  alt={alt}
                 />
               </a>
             </div>

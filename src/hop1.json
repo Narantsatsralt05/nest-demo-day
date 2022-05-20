@@ -1,52 +1,64 @@
 [
   {
     "url": "https://fundmn-aoeae.web.app/",
-    "imageUrl": "/images/ZorigFoundation.png"
+    "imageUrl": "/images/Hop2b1.png",
+    "alt": "HOP 1A"
   },
   {
     "url": "https://demoday-c0350.web.app/",
-    "imageUrl": "/images/Hop1a2.png"
+    "imageUrl": "/images/Hop1a2.png",
+    "alt": "HOP 1A"
   },
   {
     "url": "https://demoproject2k22team-2.web.app/",
-    "imageUrl": "/images/Hop1a3.png"
+    "imageUrl": "/images/Hop1a3.png",
+    "alt": "HOP 1A"
   },
   {
-    "url": "https://zorigsanmain.gatsbyjs.io/",
-    "imageUrl": "/images/ZorigFoundation.png"
+    "url": "https://flewdemo.web.app/",
+    "imageUrl": "/images/Hop1a4.png",
+    "alt": "HOP 1A"
   },
 
   {
     "url": "https://renewable-energy-nest.web.app/",
-    "imageUrl": "/images/Hop1b1.png"
+    "imageUrl": "/images/Hop1b1.png",
+    "alt": "HOP 1B"
   },
   {
     "url": "https://hypers-7429f.web.app/",
-    "imageUrl": "/images/Hop1b2.png"
+    "imageUrl": "/images/Hop1b2.png",
+    "alt": "HOP 1B"
   },
   {
     "url": "https://ekoroji-01.web.app/main-page.html",
-    "imageUrl": "/images/Hop1b3.png"
+    "imageUrl": "/images/Hop1b3.png",
+    "alt": "HOP 1B"
   },
   {
     "url": "https://home-6db67.web.app/",
-    "imageUrl": "/images/Hop1b4.png"
+    "imageUrl": "/images/Hop1b4.png",
+    "alt": "HOP 1B"
   },
 
   {
     "url": "https://team4-9f2b4.web.app/",
-    "imageUrl": "/images/Hop1c1.png"
+    "imageUrl": "/images/Hop1c1.png",
+    "alt": "HOP 1C"
   },
   {
     "url": "https://chemy-demo.web.app/",
-    "imageUrl": "/images/Hop1c2.png"
+    "imageUrl": "/images/Hop1c2.png",
+    "alt": "HOP 1C"
   },
   {
     "url": "https://ecosystem-157b2.web.app/",
-    "imageUrl": "/images/Hop1c3.png"
+    "imageUrl": "/images/Hop1c3.png",
+    "alt": "HOP 1C"
   },
   {
     "url": "https://water-conservation-82d3a.web.app/",
-    "imageUrl": "/images/Hop1c4.png"
+    "imageUrl": "/images/Hop1c4.png",
+    "alt": "HOP 1C"
   }
 ]
