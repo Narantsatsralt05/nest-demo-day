@@ -97,8 +97,8 @@ a .empty {
 
 .flex-container {
   display: flex;
-  row-gap: 48px;
-  column-gap: 96px;
+  /* row-gap: 48px; */
+  /* column-gap: 96px; */
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -115,7 +115,7 @@ a .empty {
 
 .Card-container {
   display: flex;
-  gap: 40px;
+  /* gap: 40px;`` */
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -136,6 +136,7 @@ a .empty {
   color: white;
   display: flex;
   align-items: center;
+  margin: 20px;
 }
 
 .Thumbnail {
@@ -155,4 +156,5 @@ a .empty {
   justify-content: center;
   align-items: center;
   height: 180px;
+  margin: 36px 24px;
 }
